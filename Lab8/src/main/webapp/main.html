@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="kor">
+<head>
+  <meta charset="utf-8">
+  <title>Lab #8</title>
+</head>
+<body>
+<h1>Lab #8</h1>
+<h2>:: JSP Practice ::</h2>
+<h2>GET and POST Methods to Read Form Data</h2>
+<h3>Provide your information</h3>
+<form action="getYourData.jsp" method="post">
+  <label for="first_name">First Name:</label>
+  <input type="text" name="first_name" id="first_name">
+  <br/>
+  <label for="last_name">Last Name:</label>
+  <input type="text" name="last_name" id="last_name">
+  <br/>
+  <label for="student_id">studentID:</label>
+  <input type="text" name="student_id" id="student_id">
+  <br/>
+  <h3>Select which section you are talking:</h3>
+  <br/>
+  <input type="checkbox" name="section" value="COMP32201" id="COMP32201">
+  <label for="COMP32201">COMP32201</label>
+  <input type="checkbox" name="section" value="COMP32202" id="COMP32202">
+  <label for="COMP32202">COMP32202</label>
+  <input type="checkbox" name="section" value="COMP32203" id="COMP32203">
+  <label for="COMP32203">COMP32203</label>
+  <input type="checkbox" name="section" value="COMP32204" id="COMP32204">
+  <label for="COMP32204">COMP32204</label>
+  <input type="checkbox" name="section" value="COMP32205" id="COMP32205">
+  <label for="COMP32205">COMP32205</label>
+  <input type="checkbox" name="section" value="COMP32206" id="COMP32206">
+  <label for="COMP32206">COMP322016</label>
+  <input type="checkbox" name="section" value="Nothing" id="Nothing">
+  <label for="Nothing">Nothing</label>
+  <br/>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
